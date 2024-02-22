@@ -29,3 +29,5 @@ into the {body} of the default.hbs template --}}
     <a href="{{@site.url}}" class="m-button outlined">{{t "Go to the home page"}}</a>
   </section>
 </main>
+
+<script>document.addEventListener('DOMContentLoaded', function () { plausible('404', { props: { path: document.location.pathname } }); });</script>
