@@ -8,8 +8,7 @@ Disallow: /
 Disallow: *
 
 User-agent: *
-Allow: /ghost/auth-frame/
-Disallow: /ghost/
+Disallow: /ghost/#/
 Disallow: /p/
 Disallow: /email/
 Disallow: /r/
