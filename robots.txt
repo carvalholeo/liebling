@@ -8,10 +8,8 @@ Disallow: /
 Disallow: *
 
 User-agent: *
-Disallow: /ghost/#/
 Disallow: /p/
 Disallow: /email/
 Disallow: /r/
 Crawl-delay: 5
 Sitemap: https://leocarvalho.dev/sitemap.xml
-
