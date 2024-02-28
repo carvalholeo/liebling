@@ -12,6 +12,7 @@ Disallow: /ghost/
 Disallow: /p/
 Disallow: /email/
 Disallow: /r/
+Allow: /ghost/auth-frame/
 Crawl-delay: 5
 Sitemap: https://leocarvalho.dev/sitemap.xml
 
