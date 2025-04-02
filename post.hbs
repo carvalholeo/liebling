@@ -159,6 +159,7 @@ into the {body} of the default.hbs template --}}
           </div>
         </section>
         {{!-- Native comments --}}
+        {{!--
         {{#if comments}}
           <div class="m-comments">
             <div class="l-wrapper in-comments js-native-comments">
@@ -166,14 +167,14 @@ into the {body} of the default.hbs template --}}
             </div>
           </div>
         {{/if}}
+        --}}
         {{!-- Third-party comments --}}
-        {{!--
           <section class="m-comments">
             <div class="l-wrapper in-comments js-third-party-comments">
               <!-- Paste here the provided code snippet -->
+              <div id="remark42"></div>
             </div>
           </section>
-        --}}
       {{/post}}
       {{!-- Related posts --}}
       {{#if post.tags.length}}
