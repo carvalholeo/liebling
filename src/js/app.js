@@ -201,9 +201,11 @@ $(() => {
     if ($toggleDarkMode.is(':checked')) {
       $('html').attr('data-theme', 'dark');
       localStorage.setItem('theme', 'dark');
+      window.REMARK42.changeTheme('dark');
     } else {
       $('html').attr('data-theme', 'light');
       localStorage.setItem('theme', 'light');
+      window.REMARK42.changeTheme('light');
     }
 
     if ($nativeComments) {
